@@ -48,3 +48,9 @@ body {
     font-size: 18px;
     color: var(--header-link-text);
 }
+
+.header-link a,
+.header-link a:visited {
+    text-decoration: none;
+    color: var(--header-link-text)
+}
