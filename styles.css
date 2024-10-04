@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* Just for developing*/
 html {
-    background-color: white;
+    background-color: #111;
     color: white;
 }
 
@@ -9,6 +9,8 @@ html {
     --dark-background: #1f2937;
     --header-link-text: #e5e7eb;
     --header-logo-text: #f9faf8;
+    --button-color: #3882f6;
+    --call-to-action-color: #3882f6;
 }
 
 /* Override defaults for a blank slate */
@@ -52,4 +54,48 @@ body {
 .header-link a:visited {
     text-decoration: none;
     color: var(--header-link-text);
+}
+
+.hero-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-background);
+    flex-grow: 1;
+}
+
+.hero-section {
+    display: flex;
+    padding: 0px 15%;
+    gap: 15px;
+}
+
+.hero-text-container,
+.hero-image-container {
+    flex-basis: 50%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero-subtext {
+    flex-grow: 1;
+}
+
+button {
+    width: fit-content;
+    padding: 3px 15px;
+    background-color: var(--button-color);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
 }
