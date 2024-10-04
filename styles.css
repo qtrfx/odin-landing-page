@@ -1,3 +1,10 @@
+
+/* Just for developing*/
+html {
+    background-color: #111;
+    color: white;
+}
+
 :root {
     --dark-background: #1F2937;
     --header-link-text: #E5E7EB;
@@ -19,4 +26,20 @@ body {
     max-width: 100vw;
     min-width: 100vw;
     min-height: 100vh;
+}
+
+.header-bar {
+    display: flex;
+    padding: 0 15%;
+    background-color: var(--dark-background);
+}
+
+.header-logo {
+    margin-right: auto;
+    
+}
+
+.header-link-list {
+    display: flex;
+    gap: 15px;
 }
