@@ -67,6 +67,7 @@ body {
   align-items: center;
   background-color: var(--dark-background);
   flex-grow: 1;
+  padding: 0 15%;
 }
 
 /* Hero Section Styling */
@@ -74,7 +75,7 @@ body {
   display: flex;
   gap: 15px;
   width: 100%;
-  padding: 0 15%;
+  max-width: 1440px;
 }
 
 .hero-text-container,
@@ -197,11 +198,12 @@ button {
 
 .banner {
   background-color: var(--call-to-action-color);
-  padding: 30px 100px;
+  padding: 35px 100px;
   min-width: 60%;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
+  align-items: center;
 }
 
 #banner-button {
