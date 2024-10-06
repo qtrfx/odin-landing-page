@@ -56,6 +56,7 @@ body {
   margin-right: auto;
   color: var(--header-logo-text);
   font-size: 24px;
+  font-weight: bold;
 }
 
 .header-link-list {
@@ -130,8 +131,8 @@ button {
   background-color: white;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .gallery-header {
