@@ -48,7 +48,7 @@ body {
   flex-grow: 1;
   background-color: var(--dark-background);
   align-items: center;
-  max-width: 1440px;
+  max-width: 1000px;
   justify-content: space-between;
 }
 
@@ -86,7 +86,7 @@ body {
   display: flex;
   gap: 15px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1000px;
 }
 
 .hero-text-container,
@@ -185,7 +185,7 @@ button {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  max-width: 1440px;
+  max-width: 1000px;
 }
 
 .quote {
@@ -211,7 +211,7 @@ button {
 }
 
 .banner {
-  max-width: 1440px;
+  max-width: 1000px;
   background-color: var(--call-to-action-color);
   padding: 35px 100px;
   flex-grow: 1;
