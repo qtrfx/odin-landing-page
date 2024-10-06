@@ -107,7 +107,7 @@ body {
 button {
   width: fit-content;
   height: fit-content;
-  padding: 5px 30px;
+  padding: 10px 30px;
   background-color: var(--button-color);
   color: white;
   font-weight: bold;
