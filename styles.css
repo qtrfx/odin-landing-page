@@ -1,89 +1,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* Just for developing*/
 html {
-    background-color: #111;
-    color: white;
+  background-color: #111;
+  color: white;
 }
 
 :root {
-    --dark-background: #1f2937;
-    --header-link-text: #e5e7eb;
-    --header-logo-text: #f9faf8;
-    --button-color: #3882f6;
-    --call-to-action-color: #3882f6;
+  --dark-background: #1f2937;
+  --header-link-text: #e5e7eb;
+  --header-logo-text: #f9faf8;
+  --button-color: #3882f6;
+  --call-to-action-color: #3882f6;
+  --gallery-header-color: #1f2937;
+  --hero-subtext-color: #e5e7eb;
+  --quote-section-color: #e5e7eb;
+  --quote-text-color: #1f2937;
 }
 
 /* Override defaults for a blank slate */
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-    font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    max-width: 100vw;
-    min-width: 100vw;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
+/* Header Styling */
 .header-bar {
-    display: flex;
-    padding: 5px 15%;
-    background-color: var(--dark-background);
-    align-items: center;
+  display: flex;
+  padding: 5px 15%;
+  background-color: var(--dark-background);
+  align-items: center;
 }
 
 .header-logo {
-    margin-right: auto;
-    color: var(--header-logo-text);
-    font-size: 24px;
+  margin-right: auto;
+  color: var(--header-logo-text);
+  font-size: 24px;
 }
 
 .header-link-list {
-    display: flex;
-    gap: 15px;
-    font-size: 18px;
-    color: var(--header-link-text);
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  color: var(--header-link-text);
 }
 
 .header-link a,
 .header-link a:visited {
-    text-decoration: none;
-    color: var(--header-link-text);
+  text-decoration: none;
+  color: var(--header-link-text);
 }
 
 .hero-section-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--dark-background);
-    flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-background);
+  flex-grow: 1;
 }
 
+/* Hero Section Styling */
 .hero-section {
-    display: flex;
-    padding: 0px 15%;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  padding: 0 15%;
 }
 
 .hero-text-container,
 .hero-image-container {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 
-img {
-    height: 100%;
-    width: 100%;
+.hero-image-container img {
+  width: 100%;
 }
 
 .hero-text-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .hero-subtext {
