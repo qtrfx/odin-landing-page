@@ -93,7 +93,14 @@ body {
 }
 
 .hero-subtext {
-    flex-grow: 1;
+  font-size: 18px;
+  color: var(--hero-subtext-color);
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: var(--header-logo-text);
 }
 
 button {
