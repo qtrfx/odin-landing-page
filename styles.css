@@ -155,4 +155,34 @@ button {
   border: 3px solid var(--button-color);
   border-radius: 15px;
 }
+
+.quote-section-container {
+  background-color: var(--quote-section-color);
+  display: flex;
+  flex-grow: 1;
+}
+
+.quote-container {
+  padding: 0 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--quote-text-color);
+}
+
+.quotee {
+  color: black;
+  font-weight: bold;
+  margin-left: auto;
+  padding-right: 50px;
+}
 }
