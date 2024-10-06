@@ -185,4 +185,31 @@ button {
   margin-left: auto;
   padding-right: 50px;
 }
+
+.banner-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.banner {
+  background-color: var(--call-to-action-color);
+  padding: 30px 100px;
+  min-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+#banner-button {
+  border: 2px solid white;
+}
+
+.banner-header {
+  font-weight: bold;
+  font-size: 20px;
+}
 }
