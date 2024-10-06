@@ -212,4 +212,13 @@ button {
   font-weight: bold;
   font-size: 20px;
 }
+
+.copyright-notice {
+  margin: auto;
+}
+
+footer {
+  height: 50px;
+  background-color: var(--dark-background);
+  display: flex;
 }
